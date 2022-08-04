@@ -33,7 +33,6 @@ license {
 android_app_import {
     name: "webview",
     product_specific: true,
-    default_dev_cert: true,
     presigned: true,
     required: [
         "libwebviewchromium_loader",
